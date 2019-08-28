@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "elbit task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Daniel Yosilevich",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "pg": "^7.11.0",
+    "util": "^0.12.1"
+  }
+}
